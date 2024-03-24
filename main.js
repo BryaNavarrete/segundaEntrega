@@ -38,7 +38,7 @@ function comprar(){
         productoElegido = arrayJuegos[3]
         totalCarrito += arrayJuegos[3].precio
     }
-    else if (opciones == 5){
+    else if (opciones == 5){s
         productoElegido = arrayJuegos[4]
         totalCarrito += arrayJuegos[4].precio
     }
@@ -48,9 +48,9 @@ function comprar(){
         while (opciones < 1 || opciones > 6){
             opciones = parseInt(prompt(`Oprima 1 si desea llevar ${arrayJuegos[0].nombre} por $${arrayJuegos[0].precio}\nOprima 2 si desea llevar ${arrayJuegos[1].nombre} por $${arrayJuegos[1].precio}\nOprima 3 si desea llevar ${arrayJuegos[2].nombre} por $${arrayJuegos[2].precio}\nOprima 4 si desea llevar un ${arrayJuegos[3].nombre} por $${arrayJuegos[3].precio}\nOprima 5 si desea llevar un ${arrayJuegos[4].nombre} por $${arrayJuegos[4].precio}`))
         }
-        if (opciones == 1){
+        if (opciones == 1){ 
             productoElegido = arrayJuegos[0]
-            totalCarrito += arrayJuegos[0].precio
+            totalCarrito += arrayJuegos[0].precio 
         }
         else if (opciones == 2){
             productoElegido = arrayJuegos[1]
